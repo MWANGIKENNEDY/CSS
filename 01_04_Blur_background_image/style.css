@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.wrapper{
+    position: relative;
+    min-height: 100vh;
+    background:url(1161616.jpg) no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
