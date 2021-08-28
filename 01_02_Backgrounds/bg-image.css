@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.wrapper{
+    min-height: 100vh;
+    /*background-image: url(abstract.jpg); --> Also used to specify linear or radial gradients*/
+    background-size: cover;
+    /*
+    background-attachment: scroll |fixed |local |initial |inherit;  -->specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page)
+    background-clip: border-box |padding-box |content-box |initial |inherit;  -->defines how far the background (color or image) should extend within an element.
+    background-repeat: repeat |repeat-x |repeat-y |no-repeat |initial |inherit |round --> property sets if/how a background image will be repeated.
+    background-size: auto|length|cover|contain|initial|inherit;  --> specifies the size of the background images.
+    background-position: left top| left center| left bottom|right top|right center|right bottom|center top|center center|center bottom|50% 50%|10px 10px|initial --> sets the starting position of a background image.
+    background-origin: padding-box|border-box|content-box|initial|inherit; --> specifies the origin position (the background positioning area) of a background image.
+    */
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -2;
+}
